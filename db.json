@@ -1,0 +1,135 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "email@mail.ru",
+      "password": "12345678",
+      "name": "admin"
+    }
+  ],
+  "bill": {
+    "value": 15100,
+    "currency": "GRN"
+  },
+  "categories": [
+    {
+      "name": "Дом",
+      "capacity": 3000,
+      "id": 1
+    },
+    {
+      "name": "Еда",
+      "capacity": 3000,
+      "id": 2
+    },
+    {
+      "name": "Поездка",
+      "capacity": 5000,
+      "id": 3
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "type": "income",
+      "amount": 1250,
+      "category": 2
+    },
+    {
+      "id": 2,
+      "type": "outcome",
+      "amount": 1300,
+      "category": 1
+    },
+    {
+      "type": "income",
+      "amount": 1000,
+      "category": 1,
+      "id": 3
+    },
+    {
+      "type": "outcome",
+      "amount": 200,
+      "category": 3,
+      "id": 4
+    },
+    {
+      "type": "outcome",
+      "amount": 400,
+      "category": 3,
+      "id": 5
+    },
+    {
+      "type": "outcome",
+      "amount": 100,
+      "category": 3,
+      "id": 6
+    },
+    {
+      "type": "income",
+      "amount": 3000,
+      "category": 3,
+      "id": 7
+    },
+    {
+      "type": "income",
+      "amount": 1000,
+      "category": null,
+      "id": 8
+    },
+    {
+      "type": "income",
+      "amount": 1000,
+      "category": null,
+      "id": 9
+    },
+    {
+      "type": "outcome",
+      "amount": 1000,
+      "category": 1,
+      "id": 10
+    },
+    {
+      "type": "outcome",
+      "amount": 100,
+      "category": 1,
+      "id": 11
+    },
+    {
+      "type": "outcome",
+      "amount": 100,
+      "category": 2,
+      "id": 12
+    },
+    {
+      "type": "outcome",
+      "amount": 300,
+      "category": 3,
+      "id": 13
+    },
+    {
+      "type": "outcome",
+      "amount": 200,
+      "category": 2,
+      "id": 14
+    },
+    {
+      "type": "outcome",
+      "amount": 100,
+      "category": 4,
+      "id": 15
+    },
+    {
+      "type": "outcome",
+      "amount": 400,
+      "category": 4,
+      "id": 16
+    },
+    {
+      "type": "income",
+      "amount": 2000,
+      "category": null,
+      "id": 17
+    }
+  ]
+}
